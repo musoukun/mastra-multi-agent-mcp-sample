@@ -15,6 +15,8 @@ Mastraは、TypeScriptで構築されたオープンソースのAIエージェ�
 - **デプロイメント**: React、Next.js、Node.jsアプリケーションへの組み込みやスタンドアロンエンドポイントとしての展開
 - **評価システム**: 毒性、偏見、関連性、事実精度の自動評価メトリクス
 
+**LisenseはElastic License 2.0 (ELv2)だから非常に注意してほしい**
+
 ## プロジェクトセットアップ
 
 ### 1. 新しいMastraプロジェクトの作成
@@ -75,8 +77,8 @@ src/
 └── api/                 # APIルート
 ```
 
-## frontendについて
-もし実装する場合は、Assistant UIを利用するのが良いです。
+## frontendについて(※このプロジェクトにはfrontendの実装はありません）
+もしfrontendを実装する場合は、Assistant UIを利用するのが良いです。
 以下の実装パターンを参考にしてください。
 
 ### Assistant UIとは
