@@ -75,8 +75,8 @@ src/
 └── api/                 # APIルート
 ```
 
-## frontendについて
-もし実装する場合は、Assistant UIを利用するのが良いです。
+## frontendについて(※このプロジェクトにはfrontendの実装はありません）
+もしfrontendを実装する場合は、Assistant UIを利用するのが良いです。
 以下の実装パターンを参考にしてください。
 
 ### Assistant UIとは
