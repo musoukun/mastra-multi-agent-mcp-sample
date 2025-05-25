@@ -16,7 +16,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // 基本指示文 - すべてのエージェントで共通して使用
-const baseInstructions = `
+const instructions = `
 あなたは高性能な会話エージェントです。
 ユーザーの質問に対して、簡潔かつ正確な回答を提供してください。
 
@@ -49,7 +49,7 @@ export const agentConfigs = [
 	{
 		name: "Gemini Flash Experimental",
 		model: google("gemini-2.0-flash-exp"),
-		instructions: baseInstructions,
+		instructions: instructions,
 		memory: memory, // メモリを追加
 	},
 	// 以下に他のエージェント設定を追加できます

@@ -390,14 +390,14 @@ export const agentConfigs = [
   {
     name: "Gemini Flash Experimental",
     model: google("gemini-2.0-flash-exp"),
-    instructions: baseInstructions,
+    instructions: instructions,
     memory: memory,
   },
   // 他のエージェントを追加
   // {
   //   name: "Claude 3 Haiku",
   //   model: anthropic("claude-3-haiku"),
-  //   instructions: baseInstructions,
+  //   instructions: instructions,
   //   memory: memory,
   // },
 ];
