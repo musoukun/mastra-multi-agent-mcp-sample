@@ -1,0 +1,29 @@
+{
+	"name": "mastra",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "mastra dev"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@ai-sdk/google": "^1.2.11",
+		"@mastra/core": "^0.8.3",
+		"@mastra/mcp": "^0.3.10",
+		"@mastra/memory": "^0.10.0",
+		"@modelcontextprotocol/sdk": "^1.9.0",
+		"litellm": "^0.12.0",
+		"mastra": "^0.4.8",
+		"zod": "^3.24.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.14.1",
+		"tsx": "^4.19.3",
+		"typescript": "^5.8.3"
+	}
+}
